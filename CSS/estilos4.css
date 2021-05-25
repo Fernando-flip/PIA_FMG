@@ -1,0 +1,135 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.header {
+	width: 100%;
+	height: 95px;
+	background: #fff;
+	position: fixed;
+	background: #EED09D;
+	
+	
+}
+
+
+.container {
+	max-width: 100%;
+	margin: auto;
+}
+
+.logo {
+	width: 250px;
+	height: 75px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	padding-bottom: 10px;
+
+}
+
+.menu{
+	float: right;
+	line-height: 95px;
+}
+
+.menu ul {
+	display: flex;
+	list-style: none;
+	
+}
+
+.menu a {
+	display: block;
+	padding: 0px 20px;
+	text-decoration: none;
+	color: #804000;
+	transition: all 500ms ease;
+	
+}
+
+.menu a:hover{
+	background: #c29B61;
+	color: #fff;
+}
+
+.menu .sub-menu {
+	background: #fff;
+	box-shadow: 3px 10px 10px rgba(0,0,0,0.2);;
+	display: none;
+	background: #EED09D;
+}
+
+.menu .sub-menu li a {
+	line-height: 50px;
+}
+
+.menu ul li a:hover + ul, .menu .sub-menu:hover{
+	display: block;
+}
+
+.portada {
+	width: 100%;
+	height: 400px;
+	background: url("../Imagenes/SUCURSALES.jpg");
+	background-size: 100vw 100vh;		
+}
+
+section .bienvenidos {
+	width: 100%;
+	margin-bottom: 35px;
+}
+
+.titulo {
+	text-align: center;
+	color: #c29B61;
+	padding: 30px;
+	font-size: 30px;
+}
+
+.mapa {
+	margin: 0 auto;
+	text-align: center;
+	color: #c29B61;
+	padding-left: 100px;
+	padding-right: 10px;
+	border: none;
+}
+
+
+footer .contenedor {
+	display: flex;
+	height: 70px;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 30px;
+	background: #EED09D;
+	margin: 0 auto;
+}
+
+p {
+	padding-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.sociales {
+	width: 100%;
+	text-align: center;
+	font-size: 28px;
+	margin: auto;
+	padding-right: 3px;
+}
+
+.sociales a {
+	color: #333;
+	text-decoration: none;
+}
+
+
